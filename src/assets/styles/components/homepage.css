@@ -1,6 +1,4 @@
-.btn {
- @apply bg-white text-primary rounded-md px-4 py-2
-}
+
 
 .bghome {
  background: radial-gradient(50% 50% at 50% 50%, #1B436B 47.66%, rgba(24, 63, 102, 0) 100%);
