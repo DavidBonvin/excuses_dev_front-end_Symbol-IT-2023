@@ -1,4 +1,5 @@
 # Excuses de Dev
+
 Bienvenue dans l'application "Excuses de Dev" ! C'est un générateur de phrases
 amusantes pour divertir les utilisateurs pendant qu'ils attendent.
 
@@ -12,8 +13,9 @@ Pour démarrer le projet, suivez les étapes ci-dessous :
 - Notez que le frontend dépend du backend, donc assurez-vous de cloner et configurer 
 également le repositorio du backend en suivant les instructions du README correspondant 
 avant de lancer les deux serveurs.
+- https://github.com/DavidBonvin/excuses_dev_backend_Symbol-IT-2023.git
 
--### Profitez de l'application "Excuses de Dev" et amusez-vous bien !
+### Profitez de l'application "Excuses de Dev" et amusez-vous bien !
 
 ## Détails
 L'interface de l'application est minimaliste, avec un titre, 
@@ -48,18 +50,6 @@ avec un temps de chargement aléatoire entre 1 et 5 secondes avant d'afficher le
 - Animations : Lors de l'arrivée sur la page, le titre est affiché 
 au centre de l'écran avec un effet de fondu (Fade In) après 2 secondes.
 
-# Configuration du projet
-
-Pour démarrer le projet, suivez les étapes ci-dessous :
-
- - Cloner le repositorio.
- - Installer les modules en exécutant la commande "yarn" dans la ligne de commande.
- - Pour lancer le serveur, exécuter "yarn dev" dans la ligne de commande.
-- Notez que le frontend dépend du backend, donc assurez-vous de cloner et configurer 
-également le repositorio du backend en suivant les instructions du README correspondant 
-avant de lancer les deux serveurs.
-
--### Profitez de l'application "Excuses de Dev" et amusez-vous bien !
 
 ## Technologies utilisées
 L'application a été développée en utilisant les technologies suivantes :
