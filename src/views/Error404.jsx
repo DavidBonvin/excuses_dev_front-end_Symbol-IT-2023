@@ -3,6 +3,15 @@ import React, { useEffect, useState } from "react";
 import img_error from "../assets/error.png";
 import { useNavigate } from "react-router-dom";
 
+/**
+ * Component RouteError404
+ * Cette page d'erreur importe une image d'erreur explicite 
+ * et dispose d'une fonction permettant de revenir à la page 
+ * d'accueil après 5 secondes.
+ *
+ * @author David Cordoba
+ */
+
 function Error404() {
   const navigate = useNavigate();
 

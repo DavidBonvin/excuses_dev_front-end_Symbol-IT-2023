@@ -3,10 +3,10 @@ import React from "react";
 function Excuse({ excuse }) {
   return (
     <div
-      className="flex flex-col justify-between items-center my-4"
-      style={{ height: "100px" }}
+      className="flex flex-col justify-center items-center mt-4"
+      style={{ height: "70px" }}
     >
-      <p className="text-center w-full">Ma super application</p>
+      
       <p className="italic">{excuse}</p>
     </div>
   );

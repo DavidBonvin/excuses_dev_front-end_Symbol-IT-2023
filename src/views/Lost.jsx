@@ -3,6 +3,14 @@ import React, { useEffect, useState } from "react";
 import gif from "../assets/5LSi.gif";
 import { useNavigate } from "react-router-dom";
 
+/**
+ * Component RouteLost
+ * ce composant importe un gif de Jhon Travola faisant semblant d'être perdu,
+ * pour y accéder vous devez taper /lost dans l'url
+ *
+ * @author David Cordoba
+ */
+
 function Lost() {
   const navigate = useNavigate();
 
