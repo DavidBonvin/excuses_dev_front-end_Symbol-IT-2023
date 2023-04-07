@@ -3,7 +3,6 @@ import * as URL from  "../constants/urlFrontEnd";
 import { Route, Routes as RoutesContainer } from "react-router-dom";
 
 import Error from "../views/Error404"
-import ExcuseCode from "../views/ExcuseCode";
 import Home from "../views/Home";
 import Lost from "../views/Lost";
 import React from "react";
