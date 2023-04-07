@@ -13,8 +13,7 @@ function Home() {
     <div className=" ">
       
       <Card httpCode={Code} />
-     
-     
+      <AddExcuse/>
      
     </div>
   )

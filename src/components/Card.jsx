@@ -8,17 +8,12 @@ import Excuse from "./Excuse";
 import axios from 'axios';
 
 function Card({ httpCode }) {
-
- console.log(httpCode);
  
  const URL_BACK_EXCUSE_RANDOM = 'http://127.0.0.1:8010/api/random';
  const URL_EXCUSE_CODE = 'http://127.0.0.1:8010/api/'
  
 
  const [excuse, setExcuse] = useState('');
-
- 
-
 
   useEffect(() => {
     if (httpCode) {
@@ -27,8 +22,6 @@ function Card({ httpCode }) {
       getExcuseRandom();
     }
   }, [httpCode]);
-
-   
 
   const getExcuseByCode = async (code) => {
    
@@ -53,7 +46,7 @@ function Card({ httpCode }) {
     <div className="cardbg">
      <Excuse excuse={excuse} />
       <Button onClick={getExcuseRandom} />
-      <AddExcuse/>
+     
     </div>
   )
 }
