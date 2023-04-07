@@ -3,6 +3,7 @@ import * as URL from  "../constants/urlFrontEnd";
 import { Route, Routes as RoutesContainer } from "react-router-dom";
 
 import Error from "../views/Error404"
+import ExcuseCode from "../views/ExcuseCode";
 import Home from "../views/Home";
 import Lost from "../views/Lost";
 import React from "react";
@@ -16,15 +17,17 @@ import { useParams } from "react-router";
  */
 
 const Routes = () => {
- const { httpCode } = useParams();
+
  return (
   <RoutesContainer>
    <Route path={URL.URL_HOME} element={<Home/>}/>
    <Route path={URL.URL_LOST} element={<Lost/>}/>
+   <Route path="/:Code" element={<Home />} />
    <Route path={URL.URL_ERROR} element ={<Error/>}/>
    
   </RoutesContainer>
  )
 };
+
 
 export default Routes;
