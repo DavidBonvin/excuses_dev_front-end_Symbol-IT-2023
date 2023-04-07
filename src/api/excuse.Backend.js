@@ -15,6 +15,6 @@ export function getAllExcuses() {
  return apiBackEnd.get(URL_BACK_EXCUSE_ALL);
 }
 
-export function postExcuse(values){
+export function postExcuse(values) {
  return apiBackEnd.post(URL_BACK_EXCUSE_NEW, values);
 }

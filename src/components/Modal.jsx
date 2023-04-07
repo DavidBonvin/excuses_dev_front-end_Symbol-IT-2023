@@ -36,8 +36,8 @@ function Modal({ handleModalClose }) {
       });
   };
   const handleModalCancel = () => {
-   handleModalClose();
- };
+    handleModalClose();
+  };
 
   return (
     <div className="flex flex-col items-center">
@@ -46,7 +46,9 @@ function Modal({ handleModalClose }) {
         onSubmit={handleSubmit}
       >
         <div className="flex items-center justify-between w-full">
-          <label className="" htmlFor="http_code">httpCode</label>
+          <label className="" htmlFor="http_code">
+            httpCode
+          </label>
           <input
             type="number"
             name="http_code"
@@ -72,15 +74,19 @@ function Modal({ handleModalClose }) {
             onChange={handleChange}
           />
         </div>
-        <div className="flex items-center justify-evenly w-full"><button className="border-slate-700" type="submit">Submit</button>
-        <button className="border-slate-700"  type="button" onClick={handleModalCancel}>
+        <div className="flex items-center justify-evenly w-full">
+          <button className="border-slate-700" type="submit">
+            Submit
+          </button>
+          <button
+            className="border-slate-700"
+            type="button"
+            onClick={handleModalCancel}
+          >
             Cancel
           </button>
-        
         </div>
-        
       </form>
-      
     </div>
   );
 }

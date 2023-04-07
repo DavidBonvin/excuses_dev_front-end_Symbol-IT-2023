@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Routes from "./routes/Routes";
-import { useState } from 'react'
+import { useState } from "react";
 
 /**
  * Component RouteWithNavigation
@@ -10,13 +10,11 @@ import { useState } from 'react'
  */
 
 function App() {
-
   return (
     <BrowserRouter>
-    <Routes/>
-   </BrowserRouter>
-  )
+      <Routes />
+    </BrowserRouter>
+  );
 }
 
-
-export default App
+export default App;
