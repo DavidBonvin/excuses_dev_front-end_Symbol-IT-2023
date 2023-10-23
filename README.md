@@ -1,4 +1,4 @@
-# Excuses de Dev
+# Excuses de Dev 002
 
 Bienvenue dans l'application "Excuses de Dev" ! C'est un générateur de phrases
 amusantes pour divertir les utilisateurs pendant qu'ils attendent.
